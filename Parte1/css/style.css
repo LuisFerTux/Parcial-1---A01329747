@@ -2,15 +2,14 @@
     box-sizing: border-box;
 }
 
-main{
+main {
     display: flex;
     flex-flow: column-reverse;
 }
 
-ul.events li {
-    display: flex;
-    flex-flow: column-reverse;
-  }
+.events{
+    margin: 5px;
+}
 
 body {
     background-color: bisque;
@@ -33,5 +32,7 @@ header {
 }
 
 footer {
+    display: flex;
     margin: 50px;
+    flex-flow: row-reverse;
 }
