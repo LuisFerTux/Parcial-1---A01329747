@@ -21,7 +21,7 @@ header {
 
 #stevePhoto {
     width: 70%;
-    double border: 5px solid #555;
+    border: 5px solid;
     border-color: blue;
     border-style: double;
 }
@@ -33,6 +33,6 @@ header {
 
 footer {
     display: flex;
-    margin: 50px;
+    margin-top: 50px;
     flex-flow: row-reverse;
 }
