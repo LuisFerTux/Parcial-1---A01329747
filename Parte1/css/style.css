@@ -1,1 +1,37 @@
- 
+* {
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+ul.events li {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+body {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+}
+
+#stevePhoto {
+    width: 70%;
+    double border: 5px solid #555;
+    border-color: blue;
+    border-style: double;
+}
+
+
+#cite {
+    font-size: 15px;
+}
+
+footer {
+    margin: 50px;
+}
