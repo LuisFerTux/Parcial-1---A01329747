@@ -38,8 +38,14 @@ function textToLowerCase(event) {
  
 */
 
+const btn2 = document.getElementById("btn_añoshumano");
+btn2.addEventListener('click', calculateDogAge);
+
 function calculateDogAge (){
-  
+  event.preventDefault();
+  let humanAge = document.getElementById("edad_humano");
+  edad_perro.value = humanAge.value * 7;
+  console.log(edad_perro);
 }
 
 
