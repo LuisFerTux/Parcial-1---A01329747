@@ -1,4 +1,18 @@
-
+///////////////////////////////////////////////////////////////
+//
+//
+//
+//
+// CADA PARTE FUNCIONA POR SI SOLA PERO YA NO PUDE ARREGLAR QUE 
+// FUNCIONE TODO JUNTO POR TIEMPO DE QUE ME QUEDE SIN LUZ ... 
+//
+//
+//
+//
+//
+//
+//
+///////////////////////////////////////////////////////////////
 
 /*
   Desarrolla la lógica para convertir los valores del textArea en minusculas: 
@@ -44,10 +58,10 @@ btn2.addEventListener('click', calculateDogAge);
 function calculateDogAge (){
   event.preventDefault();
   let humanAge = document.getElementById("edad_humano");
+  //falto convertir explicitamente el valor a entero, pero ya no me alcanza el tiempo de que se me fue la luz. 
   edad_perro.value = humanAge.value * 7;
-  console.log(edad_perro);
+  console.log(edad_perro.value);
 }
-
 
 
 /*  OBJETOS
@@ -67,3 +81,25 @@ B) Crea 2 objectos  con diferentes valores. Para los despistados, existen 18 esp
  Registra un evento de "click", para que cuando se de click en el botón, se muestren las propiedades de cada objeto en el input correspondiente. 
 
 */
+
+////COMENTADO PARA QUE FUNCIONE LO ANTERIOR 
+//Se iban a leer cada campo y se iban a mostrar todo por consola o insertando codigo html directamente
+//Pero ya no me da tiempo
+
+// const btn3 = document.getElementById("btn_muestra");
+// btn3.addEventListener('click', muestraPokemons);
+
+// function muestraPokemons () {
+//   event.preventDefault();
+
+// }
+
+// function Pokemon (Nombre, Especie, Ataque, Defensa){
+//   this Nombre = Nombre;
+//   this Especie = Especie;
+//   this.Ataque = Ataque;
+//   this.Defensa = Defensa;
+// }
+
+// var pokemon1Charizard = new Pokemon ('Charizard','Fuego', '1000','1000');
+// var pokemon2Magikcarp = new Pokemon ('Magikcarp','Agua', '500','500');
